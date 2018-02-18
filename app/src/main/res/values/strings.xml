@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Business Card App</string>
+    <string name="coca_cola_egypt">Coca-Cola Egypt</string>
+    <string name="address"> Cairo - Nasr City : 25, Ahmed Hosny St., Nasr City</string>
+    <string name="site">http://www.coke.eg</string>
+    <string name="phone">02-24018720 - 02-24045820 - 02-24045821 - 02-24045823</string>
+    <string name="face">https://web.facebook.com/CocaColaEgypt/</string>
+    <string name="twitter">https://twitter.com/CocaColaEgypt</string>
+    <string name="youtube">https://www.youtube.com/cocacolaegypt</string>
+</resources>

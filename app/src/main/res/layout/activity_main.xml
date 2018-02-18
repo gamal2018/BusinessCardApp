@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.businesscardapp.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/back1" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/coca1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingTop="18dp"
+                android:text="@string/coca_cola_egypt"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear">
+
+            <ImageView
+                style="@style/img"
+                android:src="@drawable/location" />
+
+            <TextView
+                style="@style/txt"
+                android:text="@string/address" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear">
+
+            <ImageView
+                style="@style/img"
+                android:src="@drawable/website" />
+
+            <TextView
+                style="@style/txt"
+                android:autoLink="web"
+                android:text="@string/site"
+                android:textColorLink="@color/Black" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear">
+
+            <ImageView
+                style="@style/img"
+                android:src="@drawable/phone" />
+
+            <TextView
+                style="@style/txt"
+                android:text="@string/phone" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear">
+
+            <ImageView
+                style="@style/img"
+                android:src="@drawable/facebook" />
+
+            <TextView
+                style="@style/txt"
+                android:autoLink="web"
+                android:text="@string/face"
+                android:textColorLink="@color/Black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <ImageView
+                style="@style/img"
+                android:src="@drawable/twitter" />
+
+            <TextView
+                style="@style/txt"
+                android:autoLink="web"
+                android:text="@string/twitter"
+                android:textColorLink="@color/Black" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear">
+
+            <ImageView
+                style="@style/img"
+                android:src="@drawable/youtube" />
+
+            <TextView
+                style="@style/txt"
+                android:autoLink="web"
+                android:text="@string/youtube"
+                android:textColorLink="@color/Black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
